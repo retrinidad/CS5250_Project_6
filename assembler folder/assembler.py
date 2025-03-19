@@ -51,6 +51,6 @@ def assembler(input_file, output_file):
                 f.write(instruction)
 
 if __name__ == '__main__':
-    input_file = 'rect/Rect.asm'
-    output_file = 'Rect1.hack'
+    input_file = 'pong/PongL.asm'
+    output_file = 'Pong1.hack'
     assembler(input_file, output_file)
